@@ -3,41 +3,51 @@ html {
 }
 
 
-header, .container {
+h1 , nav, .container {
     margin: auto;
     max-width: 960px;
-    height: 100%;
+    
 }
 
 header {
     background-color: #ffffff;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 100%; 
     padding: 0;
     border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    margin-top: 5%;
+    margin-top: 0;
     box-sizing: border-box;
     height: 20%;
     
 }
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    flex: 1;
+    max-width: 960px;
+    
+}
+
+
 
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 0;
     margin: 0;
-    /** float: left; **/
     text-align: center;
     vertical-align: middle;
     line-height: 100px;
     font-size: 30px;
-    max-width: 960px;
+    
 }
 
-
+nav {
+    margin-right: 0;
+}
 
 ul {
     list-style-type: none;
