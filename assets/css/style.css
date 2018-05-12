@@ -6,8 +6,6 @@ html {
 
 h1 , nav, .container {
     margin: auto;
-    
-    
 }
 
 header {
@@ -144,11 +142,58 @@ form  {
     width: 10%;
     padding: 15px;
 }
+.imgContent{
+    display: flex;
+    max-height: 100%;
+}
+.container .imgContent {
+    max-height: 600px;
+}
 
 .portLinks {
     display: flex;
-    flex: 1;
-    flex-direction: column;
-    width: 33%;
-    height: 33%;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.imgSizing {  
+    width: 25%;
+    height: 25%;
+    z-index: 1
+}
+
+.imgSizing + .imgSizing {
+    margin: 15px;
+    padding: 10px;
+}
+.overText p {
+    background-color:#4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    position: absolute;
+    z-index: 2;
+    width: 210px;
+    height: 25px;
+    padding: 10px;
+}
+
+#p1 {
+    left: 0px;
+    top: 50px;
+}
+#p2 {
+    left: 25px;
+    top: 40%;
+}
+#p3 {
+    left: 25px;
+    bottom: 25px;
+}
+#p4 {
+    left: 485px;
+    top: 120px;
+}
+#p5 {
+    left: 485px;
+    bottom:120px;
 }
