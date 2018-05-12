@@ -1,6 +1,6 @@
 html {
     background-image: url("../images/sun-pattern.png");
-
+    box-sizing: border-box;
 }
 
 
@@ -33,7 +33,8 @@ header {
 .nameTag {
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0;
     text-align: center;
     vertical-align: middle;
@@ -79,7 +80,7 @@ li a {
     display: block;
     padding: 0;
     background-color: #ffffff;
-    color: #cccccc;
+    color: #777777;
     text-decoration: none;
     padding: 1em;
 }
